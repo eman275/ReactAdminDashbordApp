@@ -60,3 +60,18 @@ export const userData = [
            
           },
       ];
+
+export const userRows = [
+    { id: 1, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" , email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 2, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 3, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 4, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 5, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 6, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 7, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 8, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 9, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+    { id: 10, UserName: 'Snow Jon', avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ", email:"SnowJon@gmail.com" , status:"active" , transaction:"80$"},
+
+    
+  ];    

@@ -48,8 +48,9 @@ export const NewUser = () => {
                           <option value="No">NO</option>
                       </select>
                   </div>
-                  <button className="newUserButton">Create</button>
+                  {/* <button className="newUserButton">Create</button> */}
             </form>
+            <button className="newUserButton">Create</button>
         </div>
     )
 }

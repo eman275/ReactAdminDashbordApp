@@ -29,10 +29,12 @@ const Sidebar = () => {
               Home
             </li>
             </Link>
+            <Link to="/analytics">  
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
             </li>
+            </Link>
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
               Sales
@@ -49,12 +51,13 @@ const Sidebar = () => {
                              </li>
            </Link>
               
-    
+           <Link to="/products">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 Products
               </li>
-           
+          
+              </Link>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
               Transactions

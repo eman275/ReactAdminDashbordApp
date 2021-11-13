@@ -35,10 +35,12 @@ const Sidebar = () => {
               Analytics
             </li>
             </Link>
+            <Link to ="/sales">
             <li className="sidebarListItem">
               <TrendingUp className="sidebarIcon" />
               Sales
             </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -58,10 +60,12 @@ const Sidebar = () => {
               </li>
           
               </Link>
+              <Link to="/Transactions">
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
               Transactions
             </li>
+            </Link>
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
               Reports

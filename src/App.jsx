@@ -11,7 +11,8 @@ import NewProduct from './pages/newProduct/NewProduct'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import { NewUser } from './pages/newUser/NewUser'
 import Analytics from './pages/analytics/Analytics'
-
+import Sales from './pages/sales/Sales'
+import Transactions from './pages/transactions/Transactions'
 const App = () => {
     return (
         <Router>
@@ -22,8 +23,11 @@ const App = () => {
                <Route exact path="/">
                <Home/>
                </Route>
-               <Route exact path="/analytics">
+               <Route  path="/analytics">
                   <Analytics/>
+               </Route>
+               <Route  path="/sales">
+                  <Sales/>
                </Route>
                    <Route path="/users">
                <UserList/>
@@ -42,6 +46,9 @@ const App = () => {
           </Route>
           <Route path="/newproduct">
             <NewProduct />
+          </Route>
+          <Route path="/Transactions">
+            <Transactions />
           </Route>
              </Switch>
             
